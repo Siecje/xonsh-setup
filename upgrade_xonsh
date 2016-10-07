@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. ~/.virtualenvs/xonsh/bin/activate
+pip install pip --upgrade
+pip install xonsh[ptk,linux] --upgrade

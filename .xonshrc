@@ -1,0 +1,4 @@
+$VC_HG_SHOW_BRANCH = False
+$XONSH_COLOR_STYLE = 'native'
+
+$PROMPT = '{env_name:{} }{BOLD_GREEN}{short_cwd}{branch_color}{curr_branch: {}}{NO_COLOR} {ret_code_color}{ret_code}{prompt_end}{NO_COLOR} '
